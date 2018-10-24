@@ -9,6 +9,7 @@
 Эти данные могут иметь следующую структуру:
 ```php
 $newTestData = [
+    'id'       => 1, // в случае редактирования
     'question' => 'New question?',
     'answers'  => [
         1 => 'New answer1',
