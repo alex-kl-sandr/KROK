@@ -24,6 +24,7 @@ class Test implements TestInterface
     public function getTestData(): array
     {
         return [
+            'id'       => $this->id,
             'question' => $this->question,
             'answers'  => $this->answers
         ];
